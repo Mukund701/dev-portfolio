@@ -1,5 +1,4 @@
 import React from 'react';
-// 'User' icon has been removed from the import list as it's no longer needed
 import { Heart, Coffee, Code2, Gamepad2, Music } from 'lucide-react';
 import '../styles/About.css';
 
@@ -20,7 +19,6 @@ const About: React.FC = () => {
           <div className="about-image">
             <div className="image-container">
               <div className="profile-image">
-                {/* UPDATED: This now displays your actual photo */}
                 <img 
                   src="/Photo.jpg" 
                   alt="Bal Mukund Sharma" 

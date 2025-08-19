@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { ExternalLink, Github, ChevronLeft, ChevronRight, Star, Code } from 'lucide-react';
 import '../styles/Projects.css';
 
-// Define the structure for a project
 interface Project {
   id: number;
   title: string;
@@ -36,7 +35,7 @@ const Projects: React.FC = () => {
       longDescription: "An AI-powered event discovery platform with an on-demand data pipeline. A Node.js API executes a Python/Selenium scraper, and Google's Gemini AI parses unstructured text into clean JSON data.",
       technologies: ["Next.js", "Node.js", "Python", "Gemini AI", "Selenium", "PostgreSQL", "Prisma"],
       image: "https://placehold.co/800x480/1a1a2e/ffffff?text=City+Pulse+AI",
-      demoUrl: "#", // This project has no live demo
+      demoUrl: "#",
       githubUrl: "https://github.com/Mukund701/city-pulse",
       featured: true,
       category: "AI & Full-Stack"
@@ -67,9 +66,7 @@ const Projects: React.FC = () => {
 
             <div className="projects-showcase">
               {projects.map((project, index) => {
-                // This variable checks if a real demo link exists
                 const isDemoAvailable = project.demoUrl && project.demoUrl !== "#";
-                
                 return (
                   <div
                     key={project.id}
@@ -81,7 +78,6 @@ const Projects: React.FC = () => {
                       <img src={project.image} alt={project.title} onError={(e) => (e.currentTarget.src = 'https://placehold.co/800x480/333/fff?text=Image+Not+Found')} />
                       <div className="project-overlay">
                         <div className="project-actions">
-                          {/* UPDATED: This link is now conditionally disabled */}
                           <a 
                             href={isDemoAvailable ? project.demoUrl : undefined}
                             className={`action-button demo ${!isDemoAvailable ? 'disabled' : ''}`}

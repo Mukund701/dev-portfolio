@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Zap, Rocket } from 'lucide-react'; // ChevronDown is no longer needed
+import { Code, Zap, Rocket } from 'lucide-react';
 import '../styles/Hero.css';
 
 const Hero: React.FC = () => {
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
 
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number gradient-text">3</span>
+              <span className="stat-number gradient-text">2</span>
               <span className="stat-label">Projects Completed</span>
             </div>
             <div className="stat-item">

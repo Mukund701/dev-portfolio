@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Home, User, Code, Briefcase, GraduationCap, Mail } from 'lucide-react';
 import '../styles/Header.css';
 
+// The menuItems array is defined outside the component for performance.
 const menuItems = [
   { id: 'hero', label: 'Home', icon: Home },
   { id: 'about', label: 'About', icon: User },

@@ -51,14 +51,12 @@ const Experience: React.FC = () => {
       { threshold: 0.1 }
     );
 
-    // Create a variable to hold the ref's current value
     const currentExperienceRef = experienceRef.current;
 
     if (currentExperienceRef) {
       observer.observe(currentExperienceRef);
     }
 
-    // Use the variable in the cleanup function
     return () => {
       if (currentExperienceRef) {
         observer.unobserve(currentExperienceRef);

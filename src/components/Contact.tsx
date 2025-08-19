@@ -13,8 +13,7 @@ const Contact: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  // Remember to replace this with your own Access Key from web3forms.com
-  const WEB3FORMS_ACCESS_KEY = 'YOUR_ACCESS_KEY_HERE';
+  const WEB3FORMS_ACCESS_KEY = 'f28389c0-6a11-4877-9097-89748411c56a';
 
   useEffect(() => {
     const observer = new IntersectionObserver(

@@ -49,7 +49,7 @@ const About: React.FC = () => {
                   <span className="highlight-text">Year of Experience</span>
                 </div>
                 <div className="highlight-item">
-                  <span className="highlight-number gradient-text">2</span>
+                  <span className="highlight-number gradient-text">3</span>
                   <span className="highlight-text">Projects Completed</span>
                 </div>
                 <div className="highlight-item">

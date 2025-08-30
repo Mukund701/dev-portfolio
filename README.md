@@ -1,7 +1,7 @@
 Bal Mukund Sharma - Personal Developer Portfolio
 This repository contains the source code for my personal portfolio, a dynamic and responsive single-page application built to showcase my skills, projects, and experience as a Full-Stack Developer.
 
-Live Site: dev-portfolio-alpha-taupe.vercel.app
+Live Site: https://dev-portfolio-alpha-taupe.vercel.app
 
 (Note: After deploying, take a screenshot of your live portfolio, upload it to this repository, and replace the placeholder link above to show a preview.)
 
